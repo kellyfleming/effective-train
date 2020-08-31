@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: gainsboro;
+}
+
+
+.header-image {
+  background: #F0C27B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Starfall on uigradients */
+  background: linear-gradient(to right, #4B1248, #F0C27B); /* Starfall on uigradients */  width: 100%;
+  height: 400px;
+}
+
+header {
+  height: 475px;
+  margin: 0;
+}
+
+footer {
+  margin-top: 110px;
+}
+
+nav {
+  display: flex;
+/*   justify-content: space-between; */
+  background: #F0C27B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Starfall on uigradients */
+  background: linear-gradient(to right, #4B1248, #F0C27B); /* Starfall on uigradients */
+  height: 75px;
+}
+
+nav h1 {
+  padding: 0px 0px 0px 25px;
+  text-transform: uppercase;
+  color: snow;
+  letter-spacing: 3px;
+}
+
+.main-text {
+  width: 50%;
+}
+
+.main-text div {
+  font-weight: lighter;
+  line-height: 30px;
+  color: darkslategray;
+  padding: 0px 15px 15px 15px;
+  text-align: center;
+}
+
+main .main-text, .card {
+  box-shadow: 4px -5px 5px 5px lightgray, -4px 5px 5px 5px lightgray;
+  background-color: whitesmoke;
+  border: none;
+}
+
+main .main-text {
+  margin-bottom: 35px;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*   background-color: rgba(102,51,153, 0.3); */
+  padding: 25px 0px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+/*   justify-content: center; */
+/*   align-content: center; */
+  height: 100%;
+  margin: 0px 25px;
+}
+
+nav ul li {
+  padding: 0px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: snow;
+  text-decoration: none;
+}
+
+.card {
+  color: darkslategray;
+  font-weight: lighter;
+  line-height: 25px;
+  border: 1px solid silver;
+  margin-bottom: 0px;
+/*   padding: 15px; */
+/*   width: auto; */
+/*   height: 350px; */
+  display: flex;
+  flex-direction: column;
+/*   justify-content: space-between; */
+}
+
+.cards {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8%;
+/*   grid-auto-rows: 375px; */
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image-1 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fmark-boss-xgMLOaMytUc-unsplash.jpg?v=1597929880048");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+.card-image-2 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fkitera-dent-aRpwIMgzQLo-unsplash.jpg?v=1597929911171");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+.card-image-3 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fjoe-gardner-4xv3lqnanYc-unsplash.jpg?v=1597929932620");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+.card-image-4 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fvidar-nordli-mathisen-LNrxP3CWEiQ-unsplash.jpg?v=1597930032577");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+.card-image-5 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fmaksym-diachenko-3Ts2u53CY_Y-unsplash.jpg?v=1597930614115");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+.card-image-6 {
+  background-image: url("https://cdn.glitch.com/77ce0134-5906-43f1-a77a-2565aaf281e1%2Fdave-hoefler-llEjCH71E9o-unsplash.jpg?v=1597930718186");
+  width: 100%;
+  height: 200px;
+  background-color: #544a7d;
+  background-size: cover;
+/*   bakground-position: center; */
+/*   background-origin: border-box; */
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 280px;
+    width: 100%;
+  }
+  footer {
+    margin-top: 110px;
+    width: 100%;
+  }
+  .header-image {
+    height: 200px;
+    width: 100%;
+  }
+  nav {
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    color: snow;
+  }
+  nav h1 {
+    font-size: large;
+  }
+  .cards {
+    width: 85%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 250px;
+    width: 100%;
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Starfall on uigradients */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* Starfall on uigradients */
+  }
+  
+  .header-image {
+    display: none;
+  }
+  
+  footer {
+    height: 250px;
+    margin-top: 230px;
+  }
+  
+  nav {
+    height: 100%;
+  }
+  
+  nav h1 {
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    width: 100%;
+  }
+  
+  nav ul li a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cards {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+  }
+  
+  .main-text {
+    width: 90%;
+  }
+}
