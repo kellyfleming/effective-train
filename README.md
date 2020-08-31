@@ -1,5 +1,3 @@
-Responsive CSS Demo
-
 # View demo [here](https://brazen-aware-jade.glitch.me/) on [Glitch](https://glitch.com/)
 
 Responsive CSS through media queries
